@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>What's New here?</title>
+<title>The Media Page</title>
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +22,7 @@
                 <a href="index.html"> <img src="images/Globo-Logo-white.svg" alt="logo"/></a><span class="text">MANIACALLY TAKING TECH TO THE GLOBE</span>
 			</div>
 			<div class="mobile-togle col-md-12 col-sm-12 col-xs-12">
+        <!--1-->
 
         <nav class="navbar navbar-default" role="navigation">
   <div class="navbar-header">
@@ -58,7 +59,7 @@
         </li>
   	  </ul>
   </ul>
-  </div>
+  </div><!-- .navbar-collapse -->
   </nav>
   			</div>
 
@@ -120,8 +121,7 @@
 
 	   <h1>WATCH THIS VIDEO</h1>
 	   <span>WE DO THINGS IN IT</span>
-     <p>Another sentence that is really useful for this page.</p>
-     <p>This is a small change on this line.</p>
+
 	   <p><span><i class="fa fa-play"></i></span>Click for inspiration at cosmic levels</p>
 
 
@@ -144,6 +144,7 @@
 					<h3>Sic Transit Gloria Mundi</h3>
 <p>At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. I need more copy here. At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. At the deepest level of its core, technology embodies the circle of life. </p>
 <div class="readtext">
+					 <!--<a href="#"> Read More...</a>-->
  </div>
 </div>
 				  <div class="col-xs-12 col-sm-4 col-md-4 adj_text">
@@ -173,6 +174,7 @@
 <p>At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. I need more copy here. At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. At the deepest level of its core, technology embodies the circle of life. </p>
 <p>Adding text is pretty easy and this extra line is good.</p>
 <div class="readtext">
+					 <!--<a href="#"> Read More...</a>-->
  </div>
 </div>
 		</div>
@@ -194,7 +196,7 @@
 					<h3>Sic Transit Gloria Mundi</h3>
 <p>At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. I need more copy here. At the deepest level of its core, technology embodies the circle of life. And from an old age Larry Shepard unlearned how to harness that circle and perpetuate it through more technology. At the deepest level of its core, technology embodies the circle of life. </p>
  <div class="readtext">
-
+					<!-- <a href="#"> Read More...</a>-->
  </div>
 </div>
 
@@ -233,7 +235,7 @@
 </ul>
 </div>
 </div>
-</div>
+</div><!---container-->
 <div class="video-sec col-md-4 col-sm-12 col-xs-12">
 <h1 class="video-heading text-center"><img src="images/pluralsight-white.png"></h1>
 <span class="border"></span>
@@ -247,7 +249,13 @@
 
 	</footer>
 
-</div>
+
+
+
+
+
+
+</div><!--End of Wrapper ----------->
 
 
 
@@ -256,8 +264,10 @@
   <script>
 jQuery(document).ready(function(){
 
-
+// alert("wow");
+ //  jQuery("header").addClass("fixed");
  jQuery("#hamburger").click(function(){
+   //alert("The paragraph was clicked.");
    jQuery("header").toggleClass("fixed");
  });
 
