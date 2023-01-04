@@ -2,4 +2,8 @@ test test
 
 new update 
 again update
+<<<<<<< HEAD
+updatea gain
+=======
 REsolve conflict
+>>>>>>> master
