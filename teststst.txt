@@ -1,9 +1,5 @@
 test test
 
-new update 
+new update
 again update
-<<<<<<< HEAD
 updatea gain
-=======
-REsolve conflict
->>>>>>> master
